@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+        <head>
+            <meta charset="UTF-8" />
+            <meta
+                name="viewport"
+                content="width=device-width, initial-scale=1.0"
+            />
+            <title>Kaiden Bohannon</title>
+            <link
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+                rel="stylesheet"
+            />
+            <link href="./index.css" rel="stylesheet" />
+        </head>
+
+        <body>
+            <div class="container">
+                <h1>Contribute to Kaiden Bohannon's 529!</h1>
+                <ol>
+                    <li>
+                        <div class="pointer" onclick="onCopyClick()">
+                            Click to copy: W69-X7F
+                            <i class="fa-regular fa-clipboard"></i>
+                        </div>
+                    </li>
+                    <li>
+                        Paste the code on the following site:
+                        <a href="https://www.ugift529.com/" target="_blank"
+                            >www.ugift529.com</a
+                        >
+                    </li>
+                </ol>
+            </div>
+            <div id="fallingItems"></div>
+            <!-- Modal -->
+            <div id="copyModal" class="modal">Code copied!</div>
+        </body>
+        <script src="./index.js"></script>
+    </html>
+</html>
